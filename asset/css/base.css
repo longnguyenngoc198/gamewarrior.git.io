@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --while-color: #fff;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size:62.5%;
+    list-style: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background-color: #ffb321;
+    min-width: 80px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    text-align:center;
+}
+
+/* modal */
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        /* transform: scale(0.7); */
+    }
+    to {
+        opacity: 1;
+        /* transform: scale(1); */
+    }
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    display: none;
+}
+.modal__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0d0908;
+    /* animation: modalFadeIn linear .5s; */
+}
+.modal__body {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    animation: modalFadeIn linear 0.3s;
+}
+.times {
+    position: absolute;
+    left: calc(100% - 70px);
+    bottom: calc(100% - 50px);
+    color: #fff;
+    font-size: 4rem;
+}
+
+/* animation */
+@keyframes left {
+    from {
+        transform: skew(30deg) rotatey(30deg) translateX(-100%);
+        transform-origin: left;
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes right {
+    from {
+        transform: skew(-30deg) rotateY(-30deg) translateX(100%);
+        transform-origin: right;
+        opacity: 0;
+        transition-delay: 2s;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes zoomin {
+    from {
+        transform: scale(1.8);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+@keyframes zoomin {
+  from {
+        transform: scale(1.8);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scroll {
+    from {
+        left: 22%;
+    }
+    to {
+        left: calc(-488px * 5);
+    }
+}
+
+
+/* label */
+.label {
+    font-weight: 500;
+    color: var(--while-color);
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 3px;
+}
+.label--news {
+    background-color: #ff205f;
+}
+.label--str {
+    background-color: #4dae5f;
+}
+.label--racing {
+    background-color: #694ead;
+}
+.label--adv {
+    background-color: #3fabf4;
+}
+

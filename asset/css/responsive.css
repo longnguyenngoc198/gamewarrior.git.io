@@ -1,0 +1,120 @@
+/* moblet */
+@media (max-width: 1023px) {
+    .hide-on-moblet {
+        display: none;
+    }
+    .tournament__content {
+        margin-top: 24px;
+    }
+    .tournaments {
+        padding: 56px 0;
+    }
+    .tournaments--wrap {
+        margin: 0 4px;
+    }
+    .latest-post {
+        align-items: flex-start;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .navbar {
+        padding: 0 20px;
+    }
+    .slider__text {
+        left: 40%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+    .slider__heading {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .slider_desc{
+        display: none;
+    }
+    .prev, .netxt{
+        display: none;
+    }
+    .slider__more {
+        margin-top: 12px;
+        padding: 4px 8px;
+        width: 110px;
+    }
+    .features {
+        padding: 46px 0;
+    }
+    .feature {
+        margin: 0 8px 16px 8px;
+    }
+
+    .recent {
+        background-size: cover;
+    }
+     .recent {
+        padding: 46px 0;
+    }
+    .recent-label {
+        padding-bottom: 24px;
+    }
+    .recent-game {
+        margin: 0px 8px 12px;
+    }
+    .tournament {
+        margin-bottom: 24px;
+    }
+
+    .latest {
+        margin: 8px;
+    }
+
+    
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .navbar__item {
+        margin: 0 6px;
+    }
+    .navbar__link {
+        padding: 0;
+    }
+    .navbar__auth {
+        padding: 8px 11px
+    }
+    .slider__text {
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .slider__heading {
+        font-size: 3rem;
+    }
+    .slider_desc{
+        line-height: 1.6;
+    }
+    .slider__more {
+        padding: 8px 10px;
+    }
+    .features {
+        padding: 62px 0;
+    }
+    .feature{
+        margin-bottom: 12px;
+    }
+    
+    .recent {
+        padding: 54px 0;
+    }
+    .recent-label {
+        padding-bottom: 32px;
+    }
+    .recent-game {
+        margin-bottom: 24px;
+    }
+}
+

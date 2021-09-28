@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Warrior</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"
+        integrity="sha512-Ojqt7YpXqYM6//AdMhErV3ot38rYgGF5QLJEwx7zhesjL9VqfhWiRz/dWK22hsn96RNz0CLl85+pg1P0BmfgVQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="navbar">
+                    <div class="navbar__logo">
+                        <a href="" class="navbar__logo-link">
+                            <img src="./asset/img/logo/logo.webp" alt="" class="navbar__logo-img">
+                        </a>
+                    </div>
+                    <ul class="navbar__list hide-on-mobile">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">Games</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">Blog</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">Fourms</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="" class="navbar__auth hide-on-mobile btn">Login /
+                        Register</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="slider">
+            <div class="myslide fade" style="display: block;">
+                <div class="slider__text">
+                    <h1 class="slider__heading">The Best <span>Games</span> Out
+                        There</h1>
+                    <p class="slider_desc">Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. <br> Animi a placeat illo,
+                        provident aut voluptate facere ex repellat impedit,<br>
+                        soluta alias eveniet nihil nesciunt debitis. Commodi quo
+                        cum voluptatem possimus!</p>
+                    <a href="" class="slider__more btn">Read More</a>
+                </div>
+                <img src="./asset/img/slider/1.webp" alt="" class="slider__img">
+            </div>
+
+            <div class="myslide fade">
+                <div class="slider__text">
+                    <h1 class="slider__heading">The Best <span>Games</span> Out
+                        There</h1>
+                    <p class="slider_desc">Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit.
+                        <br> Animi a placeat illo, provident aut voluptate
+                        facere ex repellat
+                        impedit,<br> soluta alias eveniet nihil nesciunt
+                        debitis. Commodi quo cum
+                        voluptatem possimus!
+                    </p>
+                    <a href="" class="slider__more btn">Read More</a>
+                </div>
+                <img src="./asset/img/slider/2.webp" alt="" class="slider__img">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="netxt" onclick="plusSlides(1)">&#10095 </a>
+
+            <div class="dotsbox">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+        <div class="latest-news-wrap">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-4 c-0 m-0">
+                        <div class="latest-news__title">
+                            <span>Latest News</span>
+                        </div>
+                    </div>
+
+                    <div class="col l-8 c-12 m-12">
+                        <div class="tickets">
+                            <div class="tickets__tracks">
+                                <div class="tickets__item">
+                                    <span class="tickets__label label label--news">News</span>
+                                    <span class="tickets__text">Lorem ipsum
+                                        dolor sit, amet consectetur
+                                        adipisicing elit.</span>
+                                </div>
+                                <div class="tickets__item">
+                                    <span class="tickets__label label label--str">STRATEGY</span>
+                                    <span class="tickets__text">Lorem ipsum
+                                        dolor sit, amet consectetur
+                                        adipisicing elit.</span>
+                                </div>
+                                <div class="tickets__item">
+                                    <span class="tickets__label label label--racing">RACING</span>
+                                    <span class="tickets__text">Lorem ipsum
+                                        dolor sit, amet consectetur
+                                        adipisicing elit.</span>
+                                </div>
+                                <div class="tickets__item">
+                                    <span class="tickets__label label label--adv">ADVENTURE</span>
+                                    <span class="tickets__text">Lorem ipsum
+                                        dolor sit, amet consectetur
+                                        adipisicing elit.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="features">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 c-12 m-6">
+                            <div class="feature" style="background-image: url('./asset/img/features/1.jpg');">
+                                <a href="" class="feature__link">
+                                    <span class="cata cata--news">NEW</span>
+                                    <div class="feature__content">
+                                        <a href="" class="feature__heading">Suspendisse
+                                            ut justo tem por,
+                                            rutrum</a>
+                                        <p class="feature__text">Lorem ipsum
+                                            dolor sit amet,
+                                            consectetur adipiscing elit.</p>
+                                        <a href="" class="feature__cmt">3
+                                            comments</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 c-12 m-6">
+                            <div class="feature" style="background-image: url('./asset/img/features/2.webp');">
+                                <a href="" class="feature__link">
+                                    <span class="cata cata--strategy">STRATEGY</span>
+                                    <div class="feature__content">
+                                        <a href="" class="feature__heading">Suspendisse
+                                            ut justo tem por,
+                                            rutrum</a>
+                                        <p class="feature__text">Lorem ipsum
+                                            dolor sit amet,
+                                            consectetur
+                                            adipiscing elit.</p>
+                                        <a href="" class="feature__cmt">3
+                                            comments</a>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col l-3 c-12 m-6">
+                            <div class="feature" style="background-image: url('./asset/img/features/3.webp');">
+                                <a href="" class="feature__link">
+                                    <span class="cata cata--news">NEW</span>
+                                    <div class="feature__content">
+                                        <a href="" class="feature__heading">Suspendisse
+                                            ut justo tem por,
+                                            rutrum</a>
+                                        <p class="feature__text">Lorem ipsum
+                                            dolor sit amet,
+                                            consectetur
+                                            adipiscing elit.</p>
+                                        <a href="" class="feature__cmt">3
+                                            comments</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 c-12 m-6">
+                            <div class="feature" style="background-image: url('./asset/img/features/4.webp');">
+                                <a href="" class="feature__link">
+                                    <span class="cata cata--racing">RACING</span>
+                                    <div class="feature__content">
+                                        <a href="" class="feature__heading">Suspendisse
+                                            ut justo tem por,
+                                            rutrum</a>
+                                        <p class="feature__text">Lorem ipsum
+                                            dolor sit amet,
+                                            consectetur
+                                            adipiscing elit.</p>
+                                        <a href="" class="feature__cmt">3
+                                            comments</a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent" style="background-image: url(./asset/img/content/recentGame/recent-game-bg.webp)">
+                <div class="recent-label">
+                    <h3 class="recent__ticket label label--news">New</h3>
+                    <h2 class="recent__text">Recent Games</h2>
+                </div>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <a href="">
+                                <div class="recent-game">
+                                    <img src="./asset/img/content/recentGame/1.webp" alt="" class="recent-game__img">
+                                    <div class="recent-game__text">
+                                        <h5>Suspendisse ut justo tem por, rutrum
+                                        </h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit
+                                            amet,
+                                            consectetur elit.</p>
+                                        <a href="">3 comments</a>
+                                    </div>
+                                    <span class="recent-game__label label label--news cata">New</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="recent-game">
+                                <a href="">
+                                    <img src="./asset/img/content/recentGame/2.webp" alt="" class="recent-game__img">
+                                    <div class="recent-game__text">
+                                        <h5>Susce pulvinar metus nulla, vel
+                                            facilisis sem</h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit amet,
+                                            consectetur elit.</p>
+                                        <a href="">3 comments</a>
+                                    </div>
+                                    <span class="recent-game__label label label--racing cata">Racing</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="recent-game">
+                                <a href="">
+                                    <img src="./asset/img/content/recentGame/3.webp" alt="" class="recent-game__img">
+                                    <div class="recent-game__text">
+                                        <h5>Suspendisse ut justo tem por, rutrum
+                                        </h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit amet,
+                                            consectetur elit.</p>
+                                        <a href="">3 comments</a>
+                                    </div>
+                                    <span class="recent-game__label label label--adv cata">adventure</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tournaments">
+                <div class="grid wide">
+                    <div class="row tournaments--wrap">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="tournament">
+                                <span class="label tournament__label-pre">PREMIUM
+                                    TOURNAMENT</span>
+                                <div class="row tournament__box">
+                                    <div class="col l-5 c-12 m-12">
+                                        <img src="./asset/img/content/Tournament/1.webp" alt="" class="tournament__img">
+                                    </div>
+                                    <div class="col l-7 c-12 m-12">
+                                        <div class="tournament__content">
+                                            <h3>DOOM</h3>
+                                            <p>Tournament Beggins: <span>June 20, 2018</span></p>
+                                            <p>Tounament Ends: <span>July 01,
+                                                    2018</span></p>
+                                            <p>Participants: <span>10
+                                                    teams</span></p>
+                                            <p>Tournament Author:
+                                                <span>Admin</span>
+                                            </p>
+                                            <p class="tournament__content--prizes">
+                                                <span class="tournament__content--prs">Prizes:</span>
+                                                1st
+                                                place $2000, 2nd place: $1000,
+                                                3rd place: $500
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="label tournament__label-tour active">TOURNAMENTS</span>
+                            </div>
+
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <div class="tournament">
+                                <span class="label tournament__label-pre">PREMIUM
+                                    TOURNAMENT</span>
+                                <div class="row tournament__box">
+                                    <div class="col l-5 c-12 m-12">
+                                        <img src="./asset/img/content/Tournament/2.webp" alt="" class="tournament__img">
+                                    </div>
+                                    <div class="col l-7 c-12 m-12">
+                                        <div class="tournament__content">
+                                            <h3>DOOM</h3>
+                                            <p>Tournament Beggins: <span>June 20, 2018</span></p>
+                                            <p>Tounament Ends: <span>July 01,
+                                                    2018</span></p>
+                                            <p>Participants: <span>10
+                                                    teams</span></p>
+                                            <p>Tournament Author:
+                                                <span>Admin</span>
+                                            </p>
+                                            <p class="tournament__content--prizes">
+                                                <span class="tournament__content--prs">Prizes:</span>
+                                                1st
+                                                place $2000, 2nd place: $1000,
+                                                3rd place: $500
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="label tournament__label-tour">TOURNAMENTS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent recent--review" style="background-image: url(./asset/img/content/recentReview/bg.webp)">
+                <div class="recent-label">
+                    <h3 class="recent__ticket label label--news">New</h3>
+                    <h2 class="recent__text">Recent Reviews</h2>
+                </div>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12">
+                            <a href="">
+                                <div class="recent-game recent-game--review">
+                                    <img src="./asset/img/content/recentReview/1.webp" alt="" class="recent-game__img recent-game__img--review">
+                                    <div class="recent-game__text recent-game__text--review--review">
+                                        <h5>Assasin’’s Creed</h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit
+                                            amet,
+                                            consectetur elit.</p>
+                                    </div>
+                                    <div class="recent__rate recent__rate--yellow">
+                                        <span>9.3</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12">
+                            <a href="">
+                                <div class="recent-game recent-game--review">
+                                    <img src="./asset/img/content/recentReview/2.webp" alt="" class="recent-game__img recent-game__img--review">
+                                    <div class="recent-game__text recent-game__text--review">
+                                        <h5>Doom</h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit
+                                            amet,
+                                            consectetur elit.</p>
+                                    </div>
+                                    <div class="recent__rate recent__rate--purple">
+                                        <span>9.5</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12">
+                            <a href="">
+                                <div class="recent-game recent-game--review">
+                                    <img src="./asset/img/content/recentReview/3.webp" alt="" class="recent-game__img recent-game__img--review">
+                                    <div class="recent-game__text recent-game__text--review">
+                                        <h5>Overwatch</h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit
+                                            amet,
+                                            consectetur elit.</p>
+                                    </div>
+                                    <div class="recent__rate recent__rate--green">
+                                        <span>9.1</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 m-6 c-12">
+                            <a href="">
+                                <div class="recent-game recent-game--review">
+                                    <img src="./asset/img/content/recentReview/4.webp" alt="" class="recent-game__img recent-game__img--review">
+                                    <div class="recent-game__text recent-game__text--review">
+                                        <h5>GTA</h5>
+                                        <p>Lorem ipsum dolor sit amet,
+                                            consectetur adipisc ing ipsum dolor
+                                            sit
+                                            amet,
+                                            consectetur elit.</p>
+                                    </div>
+                                    <div class="recent__rate recent__rate--pink">
+                                        <span>9.7</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-0 c-0">
+                            <div class="footer-logo">
+                                <a href=""><img class="footer-logo-1" src="./asset/img/logo/logo.webp" alt=""></a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+                                <img class="footer-logo-2" src="./asset/img/footer/bg.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12">
+                            <div class="latest">
+                                <h3>Latest Posts</h3>
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/1.webp" alt="" class="latest__img">
+                                    <div class="latest__text">
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                        <p class="latest__text-text">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum</p>
+                                        <p class="latest__text-admin">By Admin</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/2.webp" alt="" class="latest__img">
+                                    <div class="latest__text">
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                        <p class="latest__text-text">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum</p>
+                                        <p class="latest__text-admin">By Admin</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/3.webp" alt="" class="latest__img">
+                                    <div class="latest__text">
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                        <p class="latest__text-text">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum</p>
+                                        <p class="latest__text-admin">By Admin</p>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12">
+                            <div class="latest">
+                                <h3>Top comments</h3>
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/cmt/1.webp" alt="" class="latest__img avatar">
+                                    <div class="latest__text">
+                                        <p class="comments"> <span class="name">James Smith: </span> Lorem ipsum dolor sit amet, co </p>
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/cmt/2.webp" alt="" class="latest__img avatar">
+                                    <div class="latest__text">
+                                        <p class="comments"> <span class="name">James Smith: </span> Lorem ipsum dolor sit amet, co </p>
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/cmt/3.webp" alt="" class="latest__img avatar ">
+                                    <div class="latest__text">
+                                        <p class="comments"> <span class="name">James Smith: </span> Lorem ipsum dolor sit amet, co </p>
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="latest-post">
+                                    <img src="./asset/img/footer/cmt/4.webp" alt="" class="latest__img avatar ">
+                                    <div class="latest__text">
+                                        <p class="comments"> <span class="name">James Smith: </span> Lorem ipsum dolor sit amet, co </p>
+                                        <p class="latest__text-time">June 21, 2018</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./asset/js/main.js"></script>
+    </div>
+</body>
+
+</html>
